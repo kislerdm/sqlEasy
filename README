@@ -1,7 +1,0 @@
-Wrapper for some useful R functions to communicate with relational data bases
-
-use
-```r
-devtools::install_git("https://github.com/kislerdm/sqlEasy")
-```
-to install this package
