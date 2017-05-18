@@ -1,0 +1,8 @@
+exportPattern("^[[:alpha:]]+")
+import("DBI")
+import("RPostgreSQL")
+import("dplyr")
+import("magrittr")
+export("dbDisconnector")
+export("getDBconnection")
+export("getQueryHealthy")
