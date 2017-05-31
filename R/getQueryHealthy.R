@@ -11,6 +11,6 @@ getQueryHealthy <- function(query_in)
   #if ';' sign is missing in the end of the query, or if it's placed in the wrong place of the query
   query_in_end <- gsub(";", "", query_in_end)
   return(
-    paste0(query_in_start, " where ", query_in_end)
+    paste0(query_in_start, " where ", query_in_end, ";")
   )
 }
