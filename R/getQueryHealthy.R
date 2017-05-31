@@ -1,4 +1,4 @@
-#functino to check the sanity of the query
+#function to check the sanity of the query
 #for the moment it check the where condition(s)
 getQueryHealthy <- function(query_in)
 {
